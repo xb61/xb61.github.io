@@ -1,0 +1,24 @@
+﻿{
+  "version": "0.0.1",
+  "name": "网易云音乐随机播放器",
+  "description": "一个网易云音乐随机播放器",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/img/icon56.png",
+    "112": "/img/icon112.png"
+  },
+  "developer": {
+    "name": "原作者:墨渊(移植:QQ老冰)"
+  },
+  "locales": {
+    "zh-CN": {
+      "name": "歌单",
+      "subtitle": "一个网易云音乐随机播放器",
+      "description": "一个网易云音乐随机播放器"
+    }
+  },
+  "default_locale": "zh-CN",
+  "cursor": true,
+  "fullscreen": true
+}
