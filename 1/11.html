@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+    <link rel="manifest" href="manifest.webapp" type="application/x-web-app-manifest+json">
+	<script type="text/javascript" src="https://mat1.gtimg.com/libs/jquery/1.9.1/jquery.min.js">
+	<script type="text/javascript" src="index.js"></script><script type="text/javascript" src="v.js"></script>
+	<link rel="stylesheet" href="style.css">
+	
+
+<!--页面加载start-->
+<link rel="stylesheet" type="text/css" href="css/load.css">
+
+<script type="text/javascript">         
+    // 等待所有加载
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+    }); 
+</script>    
+
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">正在加载播放器……<br><span>V1.0</span></div>
+</div>
+
+</head>
+
+<body>
+	
+	<script type="text/javascript" src="https://api88.net/api/play/js/?id=102008316&type=songlist&music=netease&autoplay=true"></script>
+
+
+</body>
+	<script type="text/javascript">
+    $("#loading").fadeOut(3000)
+</script>
+</html>
